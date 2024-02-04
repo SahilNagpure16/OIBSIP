@@ -1,0 +1,130 @@
+body {
+    background: linear-gradient(to right, rgb(100, 97, 239), rgb(85, 147, 122));
+  }
+  
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .intro {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .text {
+    flex: 1;
+  }
+  
+  .text h1 {
+    font-size: 36px;
+    color: #0c0101;
+  }
+  
+  .text p {
+    font-size: 18px;
+    color: #150202;
+  }
+  
+  .skills {
+    padding: 40px 0;
+    background-color: #f0f0f0;
+  }
+  
+  .skills h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .skill {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .skill h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .skill p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .about {
+    padding: 40px 0;
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    color: #0a0707;
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  
+  .contact {
+    padding: 40px 0;
+    background-color: #f0f0f0;
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-size: 18px;
+    color: #666;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social li {
+    margin: 10px;
+  }
+  
+  .social img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
