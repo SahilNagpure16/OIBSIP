@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Temperature  converter</title>
+        <link rel="stylesheet" href="temperature.css">
+        <script src="temperature.js"></script>
+    </head>
+    <body>
+        <div class="converter">
+          <div class="head1">
+             <h1> Temperature converter</h1>
+          </div>
+          <div class="parent">
+            <div  class="child">
+              <label for="degree">Degree</label>
+               <input type="text" id="degree" name="degree"><br><br>
+            </div>
+            
+             <label for="Measure" >Scale</label>&nbsp;&nbsp;&nbsp;&nbsp;
+           
+             <select name="Measure" id="Measure" class="dropdown">
+                <option value="choose">choose any one</option>
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="Kelvin_in_cel">Kelvin</option>
+            </select><br><br>
+           </div>
+        <div class="result">
+            <label for="result">Result</label>&nbsp;
+            <input type="text" id="result"><br><br>
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button  type="button" onclick="temperature()">Convert</button>
+           
+        </div>
+     </div>
+
+    </body>
+   
+</html>
